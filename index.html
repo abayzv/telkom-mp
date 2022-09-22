@@ -5,154 +5,851 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   </head>
   <body>
     <!-- LINE -->
-    <div></div>
+    <div class="line">
+      <div class="red-line"></div>
+    </div>
     <!-- LINE -->
 
     <!-- NAVBAR -->
-    <nav>
-      <div>
-        <img src="assets/images/logo.png" alt="" />
+    <section class="head">
+      <div class="container">
+        <nav>
+          <div>
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+          <div>
+            <ul>
+              <li>Tentang</li>
+              <li>Mitra</li>
+              <li>Telkom Care</li>
+              <li>Promo</li>
+              <li>Kontak CS</li>
+            </ul>
+          </div>
+          <div class="nav-button">
+            <button class="red-btn">Consumer</button>
+            <button class="white-btn">Business</button>
+            <button class="round-black-button"><img src="assets/icons/basket.png" alt=""></button>
+            <button class="round-red-button"><img src="assets/icons/logout.png" alt=""></button>
+          </div>
+        </nav>
       </div>
-      <div>
-        <ul>
-          <li>Tentang</li>
-          <li>Mitra</li>
-          <li>Telkom Care</li>
-          <li>Promo</li>
-          <li>Kontak CS</li>
-        </ul>
-      </div>
-      <div>
-        <button class="red-btn">Consumer</button>
-        <button class="white-btn">Business</button>
-        <button class="round-black-button">Business</button>
-        <button class="red-black-button">Business</button>
-      </div>
-    </nav>
+    </section>
     <!-- NAVBAR -->
 
     <!-- CONTENT -->
     <section class="content">
       <!-- HERO -->
-      <div class="hero-wrapper">
-        <img src="" alt="" />
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="banner">
+            <img src="assets/images/banners/home.png" alt="" />
+            <div class="decoration-1"><img src="assets/images/decorations/elipse-1.png" alt=""></div>
+            <div class="decoration-2"><img src="assets/images/decorations/elipse-2.png" alt=""></div>
+          </div>
+        </div>
       </div>
       <!-- HERO -->
 
       <!-- BREADCUMB -->
-      <div class="breadcumb">HOME</div>
+      <div class="container">
+        <div class="breadcumb">Home</div>
+      </div>
       <!-- BREADCUMB -->
 
       <!-- SEARCH BAR -->
-      <div class="search-bar">
-        <div class="search-wrapper">
-          <input type="text" class="search-input" />
-          <select name="" id="">
-            <option value="">Beli atau sewa</option>
-            <option value="">Beli</option>
-            <option value="">Sewa</option>
-          </select>
-          <button class="search-button">Cari</button>
+      <div class="container">
+        <div class="search-bar">
+          <div class="search-wrapper">
+            <input type="text" class="search-input" placeholder="Cari Produk"/>
+            <select name="" id="">
+              <option value="">Beli atau sewa</option>
+              <option value="">Beli</option>
+              <option value="">Sewa</option>
+            </select>
+            <div class="button-wrapper">
+              <button type="submit" class="search-button">Cari</button>
+            </div>
+          </div>
         </div>
       </div>
       <!-- SEARCH BAR -->
 
       <!-- PACKAGE LIST -->
-      <div class="package-list">
-        <div class="package-wrapper">
-          <!-- Package Item -->
-          <div class="package-item">
-            <div class="package-icon"></div>
-            <div class="package-header">Lorem, ipsum dolor.</div>
-            <div class="package-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+      <div class="container">
+        <div class="package-list">
+          <div class="package-wrapper">
+            <!-- Package Item -->
+            <div class="package-item red">
+              <div class="package-icon">
+                <img src="assets/icons/drive.png" alt="">
+              </div>
+              <div class="package-header">Lorem, ipsum dolor.</div>
+              <div class="package-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
+              <button class="package-button text-red">View Plans</button>
             </div>
-            <button class="package-button">View Plans</button>
-          </div>
-          <!-- Package Item -->
-          <!-- Package Item -->
-          <div class="package-item">
-            <div class="package-icon"></div>
-            <div class="package-header">Lorem, ipsum dolor.</div>
-            <div class="package-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+            <!-- Package Item -->
+            <!-- Package Item -->
+            <div class="package-item purple">
+              <div class="package-icon">
+                <img src="assets/icons/brief.png" alt="">
+              </div>
+              <div class="package-header">Lorem, ipsum dolor.</div>
+              <div class="package-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
+              <button class="package-button text-purple">View Plans</button>
             </div>
-            <button class="package-button">View Plans</button>
-          </div>
-          <!-- Package Item -->
-          <!-- Package Item -->
-          <div class="package-item">
-            <div class="package-icon"></div>
-            <div class="package-header">Lorem, ipsum dolor.</div>
-            <div class="package-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+            <!-- Package Item -->
+            <!-- Package Item -->
+            <div class="package-item orange">
+              <div class="package-icon">
+                <img src="assets/icons/bills.png" alt="">
+              </div>
+              <div class="package-header">Lorem, ipsum dolor.</div>
+              <div class="package-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
+              <button class="package-button text-orange">View Plans</button>
             </div>
-            <button class="package-button">View Plans</button>
-          </div>
-          <!-- Package Item -->
-          <!-- Package Item -->
-          <div class="package-item">
-            <div class="package-icon"></div>
-            <div class="package-header">Lorem, ipsum dolor.</div>
-            <div class="package-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+            <!-- Package Item -->
+            <!-- Package Item -->
+            <div class="package-item red">
+              <div class="package-icon">
+                <img src="assets/icons/drive.png" alt="">
+              </div>
+              <div class="package-header">Lorem, ipsum dolor.</div>
+              <div class="package-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
+              <button class="package-button text-red">View Plans</button>
             </div>
-            <button class="package-button">View Plans</button>
-          </div>
-          <!-- Package Item -->
-          <!-- Package Item -->
-          <div class="package-item">
-            <div class="package-icon"></div>
-            <div class="package-header">Lorem, ipsum dolor.</div>
-            <div class="package-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing.
+            <!-- Package Item -->
+            <!-- Package Item -->
+            <div class="package-item purple">
+              <div class="package-icon">
+                <img src="assets/icons/brief.png" alt="">
+              </div>
+              <div class="package-header">Lorem, ipsum dolor.</div>
+              <div class="package-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </div>
+              <button class="package-button text-purple">View Plans</button>
             </div>
-            <button class="package-button">View Plans</button>
+            <!-- Package Item -->
           </div>
-          <!-- Package Item -->
         </div>
       </div>
       <!-- PACKAGE LIST -->
 
       <!-- BRAND LIST -->
-      <div class="brand-list">
-        <div class="brand-wrapper">
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
+      <div class="container">
+        <div class="brand-list">
+          <div class="brand-wrapper">
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/ruckus.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/fortinet.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/zte.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/extreme.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/ubiquiti.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
+            <!-- BRAND ITEM -->
+            <div class="brand-item">
+              <img src="assets/images/brands/lenovo.jpg" alt="" class="brand-image" />
+            </div>
+            <!-- BRAND ITEM -->
           </div>
-          <!-- BRAND ITEM -->
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
-          </div>
-          <!-- BRAND ITEM -->
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
-          </div>
-          <!-- BRAND ITEM -->
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
-          </div>
-          <!-- BRAND ITEM -->
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
-          </div>
-          <!-- BRAND ITEM -->
-          <!-- BRAND ITEM -->
-          <div class="brand-item">
-            <img src="" alt="" class="brand-image" />
-          </div>
-          <!-- BRAND ITEM -->
         </div>
       </div>
       <!-- BRAND LIST -->
+
+      <!-- POPULAR PRODUCTS -->
+     <div class="container">
+      <div class="spacer"></div>
+      <div class="product-section-wrapper">
+        <div class="title">Popular <span class="sub-title">products</span></div>
+        <div class="product-section-nav">
+          <ul>
+            <li class="active">ONU/ONT/ICT</li>
+            <li>Wifi Router</li>
+            <li>Switch</li>
+            <li>CPE</li>
+            <li>IAD</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="product-wrapper">
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+      </div>
+     </div>
+      <!-- POPULAR PRODUCTS -->
+
+      <!-- BANNER SECTION 3-->
+      <div class="banner-wrapper-3">
+
+        <!-- BANNER ITEM -->
+        <div class="banner-item">
+          <img src="assets/images/banners/banner-1.png" alt="">
+        </div>
+        <div class="read-more"><a href="">Selengkapnya</a></div>
+        <!-- BANNER ITEM -->
+
+        <!-- BANNER ITEM -->
+        <div class="banner-item">
+          <img src="assets/images/banners/banner-2.png" alt="">
+        </div>
+        <div class="read-more"><a href="">Selengkapnya</a></div>
+        <!-- BANNER ITEM -->
+
+        <!-- BANNER ITEM -->
+        <div class="banner-item">
+          <img src="assets/images/banners/banner-3.png" alt="">
+        </div>
+        <div class="read-more"><a href="">Selengkapnya</a></div>
+        <!-- BANNER ITEM -->
+
+      </div>
+      <!-- BANNER SECTION -->
+
+      <!-- CATEGORY SECTION -->
+      <div class="category-wrapper">
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/OLT.png" alt="">
+          <div class="category-title">OLT</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/ONU.png" alt="">
+          <div class="category-title">ONU</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/HFC.png" alt="">
+          <div class="category-title">HFC</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/EOC.png" alt="">
+          <div class="category-title">EOC</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/WIRELESS.png" alt="">
+          <div class="category-title">Wireless</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/SWITCH.png" alt="">
+          <div class="category-title">Switch</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/OTN.png" alt="">
+          <div class="category-title">OTN</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/NAS.png" alt="">
+          <div class="category-title">NAS</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+        
+        <!-- CATEGORY ITEM -->
+        <div class="category-item">
+          <img src="assets/images/categories/ROUTER.png" alt="">
+          <div class="category-title">Router</div>
+        </div>
+        <!-- CATEGORY ITEM -->
+
+      </div>
+      <!-- CATEGORY SECTION -->
+
+      <!-- RECOMENDATION PRODUCTS -->
+      <div class="product-section-wrapper">
+        <div class="title">Popular <span class="sub-title">products</span></div>
+        <div class="product-section-filter">
+          <select name="" id="">
+            <option value="">Urut berdasarkan</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-wrapper">
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-1.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-2.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4             
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Kartalink</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-3.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              5.0 ZTE GPON Router ZXA10 F620            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-4.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              ZTE original GPON ONU F601            
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Toko Vinayya</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-5.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              1ge 3fe Wifi Catv Onu Bt-313xr              
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+        <!-- PRODUCT ITEM -->
+        <div class="product-item">
+          <img src="assets/images/products/product-6.png" alt="">
+          <div class="product-info">
+            <div class="title">
+              GPON ONU HG8240 Provide 4           
+            </div>
+            <div class="price">Rp.150.000</div>
+            <div class="address">Jakarta Barat</div>
+            <div class="rate">5/5</div>
+            <div class="sales">Terjual <span>199</span></div>
+          </div>
+        </div>
+        <!-- PRODUCT ITEM -->
+
+      </div>
+      <!-- RECOMENDATION PRODUCTS -->
+
+      <!-- BANNER SECTION 2 -->
+      <div class="banner-wrapper-2">
+
+       <!-- BANNER ITEM -->
+       <div class="banner-item">
+        <img src="assets/images/banners/banner-4.png" alt="">
+      </div>
+       <!-- BANNER ITEM -->
+
+       <!-- BANNER ITEM -->
+       <div class="banner-item">
+        <img src="assets/images/banners/banner-5.png" alt="">
+      </div>
+       <!-- BANNER ITEM -->
+
+      </div>
+      <!-- BANNER SECTION 2 -->
+
+
     </section>
     <!-- CONTENT -->
 
